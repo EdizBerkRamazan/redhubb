@@ -1,0 +1,263 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("REDHUB V1", "BloodTheme")
+
+local Bedwars = Window:NewTab("Bedwars")
+
+local bedwars = Bedwars:NewSection("bedwars")
+
+bedwars:NewButton("Keyboard", "keyboard", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end)
+
+bedwars:NewButton("inf jump [press v on the keyboard script to toggle it and untoggle it", "inf jump", function()
+
+    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/2wgbZ6Xd")))
+
+end)
+
+local arsenal = Window:NewTab("arsenal") 
+
+local arsenal = arsenal:NewSection("arsenal")
+
+arsenal:NewButton("owlhub", "ButtonInfo", function()
+
+    --[[
+
+WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+
+]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+
+end) 
+
+arsenal:NewButton("dexhub[pc only", "dex", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))()
+
+end) 
+
+local psx = Window:NewTab("psx")
+
+local psx = psx:NewSection("psx")
+
+psx:NewButton("jmes keyless [patched", "jmes", function()
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+
+end)
+
+psx:NewButton("project wd[with key", "with key", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+
+end)
+
+local jailbreak = Window:NewTab("jailbreak")
+
+local jailbreak = jailbreak:NewSection("jailbreak")
+
+jailbreak:NewButton("salazarhub [with key", "yo", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xxSirLotte/Salazar/main/SalazarHub"))()
+
+end)
+
+local mm2 = Window:NewTab("mm2")
+
+local mm2 = mm2:NewSection("mm2")
+
+mm2:NewButton("lunarhub [ key is lunarhubnicebye", "nigger", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+
+end)
+
+mm2:NewButton("kidichi [ no key", "nigga fuck mm2 this took me 30 mins to find", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2", true))() 
+
+end)
+
+local Graphics = Window:NewTab("Graphics")
+
+local Graphics = Graphics:NewSection("Graphics")
+
+Graphics:NewButton("Fps show", "Show", function()
+
+    repeat wait() until game:IsLoaded() wait(2)
+
+local ScreenGui = Instance.new("ScreenGui")
+
+local Fps = Instance.new("TextLabel")
+
+local Ping = Instance.new("TextLabel") 
+
+--Properties: 
+
+ScreenGui.Parent = game.CoreGui
+
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling 
+
+Fps.Name = "Fps"
+
+Fps.Parent = ScreenGui
+
+Fps.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Fps.BackgroundTransparency = 1.000
+
+Fps.Position = UDim2.new(0.786138654, 0, 0, 0)
+
+Fps.Size = UDim2.new(0, 125, 0, 25)
+
+Fps.Font = Enum.Font.SourceSans
+
+Fps.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Fps.TextScaled = true
+
+Fps.TextSize = 14.000
+
+Fps.TextWrapped = true 
+
+Ping.Name = "Ping"
+
+Ping.Parent = ScreenGui
+
+Ping.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Ping.BackgroundTransparency = 1.000
+
+Ping.BorderColor3 = Color3.fromRGB(255, 255, 255)
+
+Ping.Position = UDim2.new(0.700000048, 0, 0, 0)
+
+Ping.Size = UDim2.new(0, 125, 0, 25)
+
+Ping.Font = Enum.Font.SourceSans
+
+Ping.TextColor3 = Color3.fromRGB(253, 253, 253)
+
+Ping.TextScaled = true
+
+Ping.TextSize = 14.000
+
+Ping.TextWrapped = true 
+
+-- Scripts: 
+
+local script = Instance.new('LocalScript', Fps)
+
+local RunService = game:GetService("RunService")
+
+RunService.RenderStepped:Connect(function(frame) -- This will fire every time a frame is rendered
+
+script.Parent.Text = ("FPS: "..math.round(1/frame)) 
+
+end)
+
+local script = Instance.new('LocalScript', Ping)
+
+local RunService = game:GetService("RunService")
+
+RunService.RenderStepped:Connect(function(ping) 
+
+script.Parent.Text = ("Ping: " ..game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString(math.round(2/ping))) -- your ping
+
+end)
+
+end)
+
+Graphics:NewButton("Fps increase", "nice", function()
+
+    -- Made by RIP#6666 _G.Settings = { Players = { ["Ignore Me"] = true, -- Ignore your Character ["Ignore Others"] = true -- Ignore other Characters }, Meshes = { Destroy = false, -- Destroy Meshes LowDetail = true -- Low detail meshes (NOT SURE IT DOES ANYTHING) }, Images = { Invisible = true, -- Invisible Images LowDetail = false, -- Low detail images (NOT SURE IT DOES ANYTHING) Destroy = false, -- Destroy Images }, Other = { ["No Particles"] = true, -- Disables all ParticleEmitter, Trail, Smoke, Fire and Sparkles ["No Camera Effects"] = true, -- Disables all PostEffect's (Camera/Lighting Effects) ["No Explosions"] = true, -- Makes Explosion's invisible ["No Clothes"] = true, -- Removes Clothing from the game ["Low Water Graphics"] = true, -- Removes Water Quality ["No Shadows"] = true, -- Remove Shadows ["Low Rendering"] = true, -- Lower Rendering ["Low Quality Parts"] = true -- Lower quality parts } } loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+
+end)
+
+Graphics:NewButton("Chillz enhancer", "why click", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/enhancer.txt"))()
+
+end)
+
+local Dahood = Window:NewTab("Dahood")
+
+local Dahood = Dahood:NewSection("Dahood")
+
+Dahood:NewButton("Swagmode", "sup", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+
+end)
+
+Dahood:NewButton("Swagmode crash", "yo", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+
+end)
+
+local Doors = Window:NewTab("Doors")
+
+local Doors = Doors:NewSection("Doors")
+
+Doors:NewButton("Nerd v4 ( no ax", "ez", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/doorsnerdv4.lua"))()
+
+end)
+
+Doors:NewButton("Banana gun FE", "made by nerd", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/BananaGunByNerd.lua"))()
+
+end)
+
+local moreHubs = Window:NewTab("moreHubs")
+
+local moreHubs = moreHubs:NewSection("moreHubs")
+
+moreHubs:NewButton("icehub", "stfuNigga", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+
+end)
+
+Doors:NewButton("invincible", "nigga", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/GodModeByNerd.lua"))() 
+
+end)
+
+Doors:NewButton("kinghub", "ButtonInfo", function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/R8QMbhzv')))()
+
+end)
+
+local troll = Window:NewTab("troll")
+
+local troll = troll:NewSection("troll")
+
+troll:NewButton("fling", "fling", function()
+
+loadstring(game:HttpGet('https://gist.githubusercontent.com/1BlueCat/544f7efbe88235666b5b7add65b7344d/raw/f20804bb85542dcc3bc938982e1f05b7ff05cded/FE%2520Hat%2520Fling'))()
+
+end)
+
+Graphics:NewButton("ShadeV4.2", "ButtonInfo", function()
+
+loadstring(game:HttpGet(('https://pastefy.ga/xXkUxA0P/raw'),true))()
+
+end)
+
+troll:NewButton("swear", "fo", function()
+
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
+
+end)
+
+print("enjoy nigger skidders")
