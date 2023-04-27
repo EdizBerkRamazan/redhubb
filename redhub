@@ -269,6 +269,6 @@ end)
 troll:NewButton("freeze", "freesze", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
 end
 
-local hhd = Window:NewTab("hhd")
+
  
 print("enjoy nigger skidders")
