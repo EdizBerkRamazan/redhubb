@@ -264,10 +264,7 @@ Graphics:NewButton("Low gfx(use_boost_2", "no_lag_ez", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/J4fjE5BV"))()
 end)
 Doors:NewButton("dxrkhub", "man_this_is_so_boring", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/CreepyPSC/dxrkhub/main/doors-scripts/hub-source"))()
-end)
 
-troll:NewButton("freeze", "freesze", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
-end
 
 
  
