@@ -268,8 +268,9 @@ end)
 
 troll:NewButton("freeze", "freesze", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
 end
+
 local Mugetsu = Window:NewTab("Mugetsu")
-local Mugetsu = Mugetsu:NewSection("Mugetsu")
+
 
  
 
