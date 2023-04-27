@@ -270,7 +270,7 @@ troll:NewButton("freeze", "freesze", function() loadstring(game:HttpGet('https:/
 end
 local Mugetsu = Window:NewTab("Mugetsu")
 local Mugetsu = Mugetsu:NewSection("Mugetsu")
-Mugetsu:NewButton("Pm(its the name", "ButtonInfo", function()  loadstring(game:HttpGet("https://raw.githubusercontent.com/TrickyAH/Scripts/main/loader.lua"))()
+Mugetsu:NewButton("Pm(its_the_name", "ButtonInfo", function()  loadstring(game:HttpGet("https://raw.githubusercontent.com/TrickyAH/Scripts/main/loader.lua"))()
 end)
 
 
