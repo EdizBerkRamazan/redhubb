@@ -2,21 +2,15 @@ local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
 local Window = Library.CreateLib("REDHUB V1", "BloodTheme")
 
-local Bedwars = Window:NewTab("Bedwars")
+local otherVersions = Window:NewTab("otherVersions")
 
-local bedwars = Bedwars:NewSection("bedwars")
+local otherVersions = otherVersions:NewSection("otherVersions")
 
-bedwars:NewButton("Keyboard", "keyboard", function()
-
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
-
+otherVersions:NewButton("SuggestionsVersion", "Suggestion", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdizBerkRamazan/redhubb/main/redhubSuggestions"))()
 end)
 
-bedwars:NewButton("inf jump [press v on the keyboard script to toggle it and untoggle it", "inf jump", function()
 
-    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/2wgbZ6Xd")))
-
-end)
 
 local arsenal = Window:NewTab("arsenal") 
 
