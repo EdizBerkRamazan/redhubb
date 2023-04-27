@@ -1,0 +1,26 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("Redhub(suggestions", "BloodTheme")
+
+local mugetsu = Window:NewTab("mugetsu")
+
+local mugetsu = mugetsu:NewSection("mugetsu")
+
+mugetsu:NewButton("Idk_name", "man", function()
+
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/TrickyAH/Scripts/main/loader.lua"))()
+
+end)
+
+mugetsu:NewButton("valynium", "e", function()
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XO-3S-CL-VCK-jf-3HDM/Products/main/Project-Mugetsu.lua"))()
+
+end)
+
+mugetsu:NewButton("Smoothware", "yo", function()
+
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Alrbuddy/ohmydays/main/Purmom'))()
+
+end)
+
