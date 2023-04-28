@@ -34,7 +34,7 @@ end )
 
 local pl = serv:Channel("prison life")
 
-pl:Button( "Name", function() 
+pl:Button( "prevail x", function() 
 
 loadstring(game:HttpGet("https://pastebin.com/raw/VHnxgyBQ"))()
 
