@@ -1,42 +1,34 @@
 local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
 
-
 local REDHUBV2 = DiscordLib:Window("REDHUBV2")
-
 local serv = REDHUBV2:Server("Main", "")
-
 local so = serv:Channel("shindo")
 
-
 so:Button( "Project nexus", function() 
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IkkyyDF/ProjectNexus/main/Loader.lua"))()
-
 end )
-
 
 so:Button( "Name", function() 
-
      print("hello") 
-
+end )
+local nl = serv:Channel("ninja legends")
+nl:Button( "Proxima Hub", function() 
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
 end )
 
-local serv = REDHUBV2:Server("Suggested", "")
 
+
+
+
+
+-- suggested
+local serv = REDHUBV2:Server("Suggested", "")
 local mu = serv:Channel("mugetsu")
 
-
 mu:Button( "jumble", function() 
-
     loadstring(game:HttpGet("https://jumblescripts.com/ProjectMugetsu.lua"))() 
-
 end )
-
 local pl = serv:Channel("prison life")
-
-pl:Button( "prevail x", function() 
-
+pl:Button( "prevail X", function() 
 loadstring(game:HttpGet("https://pastebin.com/raw/VHnxgyBQ"))()
-
 end )
-
